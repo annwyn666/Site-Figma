@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Art Club">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/timless-logo-min.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PainArt | Регистрация | Вход</title>
+    <!-- FONTS -->
+    <link href=”https://use.fontawesome.com/releases/v5.0.13/css/all.css” rel=”stylesheet”>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+
+    <link rel="stylesheet" href="css/reg.css" type="text/css">
+    <link rel="stylesheet" href="css/modal.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+</head>
+
+<body>
+        <!-- Page Preloder -->
+        <div id="preloder">
+            <div class="loader"></div>
+        </div>
+    <div class="col-lg-12">
+        <div class="homebtn">
+            <a href="./index.html">Вернуться на главную  </i></a>
+        </div>
+    </div>
+   <div>
+    <div class="container">
+        <div class="header">
+            <h2>Регистрация</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Фамилия*</label>
+                <input type="text" placeholder="Романов" id="username" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username2">Имя*</label>
+                <input type="text" placeholder="Иван" id="username2" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username3">Отчество</label>
+                <input type="text" placeholder="Васильевич" id="username3" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">Email*</label>
+                <input type="email" placeholder="tsarrussia@klremlin.com" id="email" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="username">Номер телефона*</label>
+                <input type="phoneNumber" placeholder="xxx-xxx-xxx либо (xxx)xxx-xxxx" id="phoneNumber" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">Пароль</label>
+                <input type="password" placeholder="пароль" id="password"/>
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">Пароль повторно</label>
+                <input type="password" placeholder="пароль повторно" id="password2"/>
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="about">О себе</label>
+                <input type="text" placeholder="расскажите нам о себе" id="about" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    «Хочу стать художником!»
+                </label>
+                <hr>
+                <div>поля отмеченные <b>*</b> обязательны к заполнению!</div>
+            <button>Зарегистрироваться</button>
+            <button id="myBtn" type="button" >Зайти в кабинет</button>
+        </form>
+    </div>
+  
+    <!-- Modal loging popup Begin -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="header">
+            <h2>Введите данные</h2>
+        </div>
+        
+        <form id="Modalform" class="form">
+            
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="MPushok@catzzz.com" id="Memail" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">Пароль</label>
+                <input type="text" placeholder="Mpassword" id="Mpassword" />
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <input type="button" id="button" value="Войти">
+        </div>
+        
+    </div>
+   </div>
+
+<!-- Js Plugins -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>   
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/reg.js"></script>
+<script src="js/modal.js"></script>
+
+
+
+</body>
+</html>
