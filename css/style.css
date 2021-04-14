@@ -2,7 +2,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Poppins", sans-serif;
+	font-family: "Georgia", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -15,7 +15,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Aldrich", sans-serif;
+	font-family: "Mistral", sans-serif;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h6 {
 
 p {
 	font-size: 15px;
-	font-family: "Poppins", sans-serif;
+	font-family: "Georgia", sans-serif;
 	color: #7e7b7b;
 	font-weight: 400;
 	line-height: 26px;
@@ -66,7 +66,7 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #ffffff;
+	color: #7e4545;
 }
 
 ul,
@@ -86,7 +86,7 @@ ol {
 }
 
 .section-title span {
-	color: #dfa667;
+	color: #553d81;
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
